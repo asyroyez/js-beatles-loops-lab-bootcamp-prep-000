@@ -13,6 +13,7 @@ function johnLennonFacts(facts) {
 
   while (i < facts.length) {
     shoutedFacts.push(facts[i] + "!!!")
+    i++
   }
-  
+  return shoutedFacts
 }
